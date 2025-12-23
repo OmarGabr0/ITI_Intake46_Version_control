@@ -1,0 +1,130 @@
+body {
+    /* inherted style */
+    /* font-family: algerian; */
+    /* not ihertied style */
+    /* margin: 5px; */
+}
+
+* {
+    /* imp override user agent style sheet  reset code*/
+    font-family: algerian;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* h2{
+    color:gray;
+    background-color: brown;
+   
+} */
+
+/* div{
+    background-color: aqua;
+    color:blueviolet;
+} */
+/* #myDiv{
+    color: green;
+
+} */
+
+/* .bgcolor{
+    color: green;
+    background-color: blueviolet;
+} */
+/* .myClass{
+    font-size: 30px;
+    color: blue;
+
+} */
+
+/* .myClass,h2,#myDiv{
+    border:1px solid red;
+} */
+/* div.myClass p{
+    line-height: 60px;
+} */
+
+/* .hoverEffect:hover{
+    background-color: green;
+} */
+/* [href='#']{
+    text-decoration: none;
+    color: yellow;
+} */
+
+span{
+    width: 200px;
+    height:200px;
+    background-color: #2ac319;
+    padding:50px;
+}
+div{
+     /* display: inline-block;  */
+    width: 200px;
+    height:200px;
+    background-color: red;
+    border: 1px solid;
+    /* margin: 50px; */
+}
+#myDiv{
+    /* position: fixed;  */
+     /* left: 100px; */
+     background-color: #2ac319;
+     text-align: center;
+     float: right;
+     /* top:20px;  */
+
+     /* z-index: -1; */
+}
+/* positions */
+/* power of specfication */
+/*  important | inline       |       ID         |  class,Att,psuedoclass       |  element */
+
+                                                                     /* 1 */
+                                             /* 1                     0 */
+                           /* 1                  0                             0 */
+                                                /* 1                          3 */
+                                                 /* 2                        0 */
+                              /* 1                  1                        3 */
+
+a {
+    color: green !important;
+}
+
+ul.myList li a {
+    color: blue;
+}
+
+.myList .myClass {
+    color: blueviolet;
+}
+
+#active {
+    color: red;
+}
+
+.myClass {
+    color: aquamarine;
+}
+
+* {
+    color: brown;
+}
+
+ul.myList li a#active {
+    /* 113 */
+    color: antiquewhite;
+}
+
+.myClass:hover{
+    /* 20 */
+    color :#2ac319;
+}
+ul.myList li a#active:hover{
+    /* 123 */
+    color:blue
+}
+/* div{
+    width: 50%;
+    background-color: aqua;
+} */
